@@ -1,0 +1,153 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: o;
+}
+html{
+  font-size: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+  display: block;
+  text-decoration: none;
+}
+.container{
+  max-width: 98rem ;
+  margin: 0 auto ;
+  padding: 0 2.2;
+}
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1400;
+  height: 4.4rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(2rem);
+}
+.nav-list{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.1rem;
+}
+.nav-list-mobile{
+  display: none;
+}
+.nav-link{
+  font-size: 1.4rem;
+  color: white;
+  padding: 0.1rem;
+  transition: opacity 0.5s;
+}
+.nav-link:hover{
+  opacity: 0.7;
+}
+.nav-link-apple{
+  width: 1.6rem;
+  background: url(https://raw.githubusercontent.com/techiecoder2079/apple-clone/88e08c79acceb9c00a975f4f5b2fa3a5b86ff86c/images/icons/apple.svg) center no-repeat;
+  height: 4.4rem;
+}
+.nav-link-search{
+  width: 1.6rem;
+  background: url(https://raw.githubusercontent.com/techiecoder2079/apple-clone/88e08c79acceb9c00a975f4f5b2fa3a5b86ff86c/images/icons/search.svg) center no-repeat;
+  height: 4.4rem;
+}
+.nav-link-bag{
+  width: 1.6rem;
+  background: url(https://raw.githubusercontent.com/techiecoder2079/apple-clone/88e08c79acceb9c00a975f4f5b2fa3a5b86ff86c/images/icons/bag.svg) center no-repeat;
+  height: 4.4rem;
+}
+.iphone-11-pro{
+  background: url(https://github.com/techiecoder2079/apple-clone/blob/main/images/hero/iphone-11-pro/iphone_11_pro_large.jpg?raw=true);
+  margin-top: 4.4rem;
+}
+.hero{
+  height: 69.2rem;
+  background-size: auto 73.6rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top: 0.6rem solid white;
+  border-bottom: 0.6rem solid white;
+}
+.iphone-11-pro{
+  border-top: none;
+}
+.tittle{
+  color: white;
+  text-align: center;
+  padding-top: 5.5rem;
+}
+.tittle-heading{
+  font-size: 5.6rem;
+  line-height: 1.0;
+  letter-spacing: -0.005rem;
+}
+.tittle-sub-heading{
+  font-size: 2.65rem;
+  margin-top: 0.6rem;
+  letter-spacing: 0.008rem;
+  font-weight: 400;
+}
+.tittle-price{
+  font-size: 1.7rem;
+  color: white;
+  margin-top: 0.68rem;
+}
+.cta{
+  text-align: center;
+  margin-top: 1.8rem;
+}
+.cta-link{
+  color: #6bf;
+  font-size: 2.1rem;
+  display: inline-block;
+}
+.cta-link:nth-child(2){
+  margin-left: 2.6rem;
+}
+.cta-link:hover{
+  border-bottom: 2px solid #6bf;;
+}
+.iphone-11{
+  background:url(https://github.com/techiecoder2079/apple-clone/blob/main/images/hero/iphone-11/iphone_11_medium.jpg?raw=true) ;
+}
+.tittle-dark{
+  color: black;
+
+}
+.hero{
+  height: 69.2rem;
+  background-size: auto 73.6rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top: 0.6rem solid white;
+  border-bottom: 0.6rem solid white;
+}
+.cta-link-darker{
+  color: #0070c9;
+}
+.cta-link-darker:hover{
+  border-bottom-color:  #0070c9;
+}
+.watch{
+  background: url(https://github.com/techiecoder2079/apple-clone/blob/main/images/hero/watch/watch_small.jpg?raw=true);
+}
+
+.tittle-heading-watch{
+  height: 69.2rem;
+  background: url() center no-repeat;
+  background-size: auto 7.8rem;
+  margin-top: 1.6rem;
+}
+.hero{
+  height: 69.2rem;
+  background-size: auto 73.6rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top: 0.6rem solid white;
+  border-bottom: 0.6rem solid white;
+}
+
